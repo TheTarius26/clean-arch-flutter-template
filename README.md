@@ -1,4 +1,4 @@
-# x_mobile_app
+# Flutter Template
 
 A new Flutter project.
 
