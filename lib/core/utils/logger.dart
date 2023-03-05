@@ -12,8 +12,12 @@ void loggerWarning(String message) {
   Logger().w(message);
 }
 
-void loggerError(String message) {
-  Logger().e(message);
+void loggerError(
+  String message, [
+  Object? error,
+  StackTrace? stackTrace,
+]) {
+  Logger().e(message, error, stackTrace);
 }
 
 void loggerWtf(String message) {
