@@ -1,6 +1,6 @@
+import 'package:clean_arch_flutter_template/core/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:x_mobile_app/core/routes/routes.dart';
 
 GlobalKey<NavigatorState> rootNavigatorKey = GlobalKey<NavigatorState>();
 

@@ -1,4 +1,4 @@
-import 'package:x_mobile_app/bootstrap.dart';
+import 'package:clean_arch_flutter_template/bootstrap.dart';
 
 void main() {
   bootstrap();

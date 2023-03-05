@@ -1,6 +1,6 @@
 {
-    "name": "x_mobile_app",
-    "short_name": "x_mobile_app",
+    "name": "clean_arch_flutter_template",
+    "short_name": "clean_arch_flutter_template",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

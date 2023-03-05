@@ -1,7 +1,7 @@
+import 'package:clean_arch_flutter_template/presentation/blocs/home/home_bloc.dart';
+import 'package:clean_arch_flutter_template/presentation/injector/injector.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:x_mobile_app/presentation/blocs/home/home_bloc.dart';
-import 'package:x_mobile_app/presentation/injector/injector.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

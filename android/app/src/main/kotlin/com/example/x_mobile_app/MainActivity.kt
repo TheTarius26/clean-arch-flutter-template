@@ -1,4 +1,4 @@
-package com.example.x_mobile_app
+package com.example.clean_arch_flutter_template
 
 import io.flutter.embedding.android.FlutterActivity
 

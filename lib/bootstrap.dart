@@ -1,10 +1,10 @@
 import 'dart:async';
 
+import 'package:clean_arch_flutter_template/config/app/app.dart';
+import 'package:clean_arch_flutter_template/core/utils/logger.dart';
+import 'package:clean_arch_flutter_template/presentation/injector/injector.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:x_mobile_app/config/app/app.dart';
-import 'package:x_mobile_app/core/utils/logger.dart';
-import 'package:x_mobile_app/presentation/injector/injector.dart';
 
 class AppBlocObserver extends BlocObserver {
   @override

@@ -1,6 +1,6 @@
+import 'package:clean_arch_flutter_template/config/color/colors.dart';
+import 'package:clean_arch_flutter_template/config/font/fonts.dart';
 import 'package:flutter/material.dart';
-import 'package:x_mobile_app/config/color/colors.dart';
-import 'package:x_mobile_app/config/font/fonts.dart';
 
 class AppTheme {
   static ThemeData get lightTheme => ThemeData(

@@ -1,10 +1,10 @@
 import 'dart:async';
 
+import 'package:clean_arch_flutter_template/core/resource/bloc_status.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
-import 'package:x_mobile_app/core/resource/bloc_status.dart';
 
 part 'home_event.dart';
 part 'home_state.dart';
