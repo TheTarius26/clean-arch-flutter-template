@@ -1,6 +1,8 @@
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
 
+import 'injector.config.dart';
+
 final getIt = GetIt.instance;
 
 @InjectableInit(
@@ -8,4 +10,4 @@ final getIt = GetIt.instance;
   preferRelativeImports: false,
   asExtension: false,
 )
-void configureDepedencies() => getIt;
+void configureDependencies() => init(getIt);
