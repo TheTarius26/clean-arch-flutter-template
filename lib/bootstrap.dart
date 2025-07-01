@@ -34,7 +34,7 @@ class AppBlocObserver extends BlocObserver {
 
 void bootstrap() {
   WidgetsFlutterBinding.ensureInitialized();
-  configureDepedencies();
+  configureDependencies();
   FlutterError.onError = (FlutterErrorDetails details) {
     loggerError(details.exceptionAsString(), details.exception, details.stack);
   };
